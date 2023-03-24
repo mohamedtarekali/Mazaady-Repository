@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite1" >
+	<parameter name="browser" value="chrome" />
+	<test name="FirstDemoSuite">
+		<classes>
+			<class name="tests.testLogin" />
+			<class name="tests.TestAddProduct" />
+		</classes>
+	</test>
+</suite> 
+       
